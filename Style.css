@@ -1,0 +1,118 @@
+
+header{
+  background: black;
+}
+
+h1{
+  text-align: center;
+}
+
+body{
+  background: black;
+  width: auto;
+  height: auto;
+}
+.logo{
+  width: 275px;
+  height: 250px;
+  border-radius: 100px;
+}
+
+.area{
+  text-align: center;
+  height: 350px;
+  margin-top: 25px;
+}
+
+.texto1{
+  vertical-align: middle;
+  position: relative;
+  height: 280px;
+  width: 255px;
+  margin: 15px;
+  color: chartreuse;
+  background-color: black;
+  font-size: 20px;
+  resize: none;
+  text-align: center;
+}
+
+.texto2:empty{
+  background-image: url(cargando.gif);
+  border-color: blue;
+  border-style: double;
+  border-radius: 20px;
+}
+
+.texto2{
+  background-color: black;
+  vertical-align: middle;
+  position: relative;
+  height: 280px;
+  width: 255px;
+  margin: 15px; 
+  color: chartreuse;
+  font-size: 20px;
+  resize: none;
+  text-align: center;
+}
+
+
+
+.botones{
+  text-align: center;
+  margin: 25px;
+}
+.encriptar
+{
+  background: #497e76;
+  border-color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.desencriptar{
+  background: #497e76;
+  border-color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+.copiar{
+  background: #497e76;
+  border-color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+p{
+  color: darkgoldenrod;
+  font-size: 20px;
+}
+
+h2{
+  color: gold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.logoAlura{
+  width: 125px;
+  height: 125px;
+  border-radius: 100px;
+}
+@media screen and(max-width:375px){
+  .area{width: 95%;}
+  .texto1{height:35%; width:65%}
+  .texto2{height:35%; width:65%}
+  .logo{
+    height:300px;
+    width:300px
+  }
+  .encriptar{padding:0; font-size:15px}
+  .desencriptar{padding:0; font-size:15px}
+  .copiar{padding:0; font-size:15px}
+}
+
